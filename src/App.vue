@@ -1,3 +1,10 @@
 <template>
-  <h1 class="text-red-100 text-2xl">Hello World 🚀!</h1>
+  <HeaderComponent />
+  <main>
+
+  </main>
 </template>
+
+<script setup lang="ts">
+import HeaderComponent from "@/components/HeaderComponent.vue";
+</script>
